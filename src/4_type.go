@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// run with command:
+// go run src\4_type.go
+
 type aliasInt = int // declare an alias for int
 type myInt int      // defines a new type
 
