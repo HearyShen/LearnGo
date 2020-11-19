@@ -79,4 +79,17 @@ func main() {
 	var ptrStr *string = &vStr
 	fmt.Printf("ptrStr = %v (%T)\n", ptrStr, ptrStr)
 	fmt.Printf("*ptrStr = %v (%T)\n", *ptrStr, *ptrStr)
+
+	/*
+		Struct
+	*/
+	var vStruct struct {
+		id     int
+		name   string
+		salary float32
+	}
+	vStruct.id = 1
+	vStruct.name = "Mike"
+	vStruct.salary = 123.45
+	fmt.Printf("vStruct = %v (%T)\n", vStruct, vStruct)
 }
