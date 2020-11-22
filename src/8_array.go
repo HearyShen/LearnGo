@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+// run with commands:
+// go run src\8_array.go
+
+// array is a fixed length sequence of data
+
 func main() {
 	// init array
 	var colors [3]string
