@@ -9,7 +9,7 @@ type aliasInt = int // declare an alias for int
 type myInt int      // defines a new type
 
 // Person is type of a struct
-type Person struct {
+type BasicPerson struct {
 	name string
 	age  uint8
 }
@@ -21,7 +21,7 @@ func main() {
 	var vMyInt myInt
 	fmt.Printf("vMyint = %v (%T)\n", vMyInt, vMyInt)
 
-	var person Person
+	var person BasicPerson
 	person.name = "Mike"
 	person.age = 20
 	fmt.Printf("person = %v (%T)\n", person, person)
