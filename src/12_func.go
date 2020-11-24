@@ -47,6 +47,11 @@ func traverse(arr []int, handler func(num int)) {
 	}
 }
 
+// pass a pointer to func
+func increase(x *int) {
+	*x = 2
+}
+
 func main() {
 	// call a named function
 	fmt.Println(add(1, 2))
@@ -70,4 +75,11 @@ func main() {
 	traverse(arr, func(num int) {
 		fmt.Print(num*num, " ")
 	})
+	fmt.Println()
+
+	// pass num to func by its pointer
+	vNum := 1
+	fmt.Println("Before: ", vNum)
+	increase(&vNum)
+	fmt.Println("After: ", vNum)
 }
