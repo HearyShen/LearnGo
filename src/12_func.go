@@ -11,7 +11,7 @@ import (
 /*
 	A standard paradigm of function in go:
 
-	func func_name(input_params) (return_params) {
+	func func_name(inputParams) (returnParams) {
 		func body
 	}
 */
