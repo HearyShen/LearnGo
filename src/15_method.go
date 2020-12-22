@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // run with commands:
-// go run src\16_method.go
+// go run src\15_method.go
 
 /*
 	In go, method is a function with recipient.

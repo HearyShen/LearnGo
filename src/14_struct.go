@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // run with commands:
-// go run src\15_struct.go
+// go run src\14_struct.go
 
 /*
 	struct can be defined in paradigm:

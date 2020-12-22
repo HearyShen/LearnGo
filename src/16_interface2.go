@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // run with commands:
-// go run src\14_interface.go
+// go run src\16_interface2.go
 
 /*
 	standard interface paradigm:
