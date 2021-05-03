@@ -1,3 +1,5 @@
+// Writing Web Applications
+// Official Example from https://golang.org/doc/articles/wiki/
 package main
 
 import (
